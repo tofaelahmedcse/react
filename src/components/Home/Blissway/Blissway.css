@@ -1,0 +1,28 @@
+
+/* === blissway-wrap === */
+.blissway-wrap{float: left; width: 100%; margin-top: -64px; z-index: 1;}
+.blissway-inner{float: left; width: 100%;}
+.blissway-wrap .common-wrap{max-width: 1040px;}
+.blissway-wrap .section-title{float: left; width: 100%; padding-right: 45.118383%; padding-left: 6%; padding-bottom: 221px; position: relative;}
+.blissway-wrap .section-title:after{content: ''; position: absolute; top: auto; bottom: 0; left: 10.6%; width: 15px; height: 168px; background-color: #1BA5DE; border-radius: 12px;}
+.blissway-wrap .section-title h1{float: left; font-family: 'Lato Black',sans-serif;}
+.blissway-wrap .section-title span{float: left; font-size: 30px; line-height: 50px; font-family: 'Lato',sans-serif; font-weight: 700;     margin-top: 13px;}
+.blissway-wrap .section-title p{float: left; font-size: 28px; line-height: 37px; font-family: 'Lato',sans-serif; font-weight: 400; color: #A8A8A8; margin-top: 17px;}
+.blissway-tab-wrap{float: left; width: 100%; position: relative; padding-top: 18px;}
+.tab-thumb-item{float: left; width: 100%;}
+.tab-item-thumb{float: left; width: 100%; min-height: 572px; background-repeat: no-repeat; background-position: center center; background-size: cover; padding: 0 20px;}
+.tab-item-content{position: absolute; width: 100%; max-width: 399px; top: 132px; left: 63.5%; transform: translateX(-50%); z-index: 9;}
+.blissway-tab-handler{position: absolute; top: 0; left: 65%; transform: translateX(-50%); width: 100%; max-width: 543px; height: 100%; background-color: rgba(0,0,0,0.86); padding-right: 113px;}
+.blissway-tab-handler .tab-nav-wrap { width: 72px; position: absolute; right: -23px; top: 58%; transform: translateY(-50%);}
+.blissway-tab-handler .lanes-tab-nav-inner{width: 63px;}
+.tab-item-wrap{float: left; width: 100%; padding-right: 98px;}
+.blissway-tab-item-wrap{float: left; width: 100%;}
+.tab-item{float: left; width: 100%; display: none; position: relative;}
+.tab-item:before{content: ''; position: absolute; top: 0; left: 0; width: 22.84040995607613%; height: 100%; background: linear-gradient(90deg, rgba(13,13,13,0.9808298319327731) 1%, rgba(13,13,13,0.9556197478991597) 4%, rgba(13,13,13,0) 100%);}
+.tab-item:after{content: ''; position: absolute; top: 0; right: 0; width: 22.84040995607613%; height: 100%; background: linear-gradient(90deg, rgba(13,13,13,0) 2%, rgba(13,13,13,0.9416141456582633) 74%, rgba(13,13,13,0.9808298319327731) 98%);}
+.tab-item:first-child{display: block;}
+.tab-item ul, .new-take-content ul{float: left; width: 100%; margin-top: 32px; padding-left: 11px;}
+.tab-item li, .new-take-content li{float: left; width: 100%; font-size: 23px; line-height: 32px; color: #A2A2A2; padding-left: 30px; font-weight:  300; margin-top: 10px;  position: relative;}
+.tab-item li:first-child, .new-take-content li:first-child{margin-top: 0;}
+.tab-item li:before, .new-take-content li:before{content: ''; position: absolute; left: 0; top: 12px; width: 12px; height: 12px; background-image: url('../../../resources//image//chevron_right.png'); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+/* === blissway-wrap === */

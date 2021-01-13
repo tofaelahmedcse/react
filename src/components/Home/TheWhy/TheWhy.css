@@ -1,0 +1,32 @@
+/* === the-why === */
+.the-why.video-wrap{z-index: 1111;}
+.video-wrap{float: left; width: 100%; padding-top: 309px; background-color: #0D0D0D; z-index: 0;}
+.video-wrap .common-wrap{max-width: 1040px;}
+.video-wrap-inner{float: right; width: 100%; max-width: 952px; position: relative;}
+.the-why .video-wrap-inner:before{content: ''; position: absolute; top: 113%; left: 28px; width: 15px; height: 125px; background-color: #5E5E5E; border-radius: 12px;}
+.the-why .video-wrap-inner:after{content: ''; position: absolute; top: 144%; left: 99px; right: auto; width: 15px; height: 207px; background-color: #272727; border-radius: 12px;}
+
+
+.video-content-wrap{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; align-content: center;}
+.play-btn-wrap{float: left; width: 14.70588235294118%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; align-items: center;}
+.play-btn{float: left; width: 100%; max-height: 132px; position: relative; cursor: pointer;}
+.play-btn:before{content: ''; position: absolute; width: 15px; left: 49.5%; transform: translateX(-50%); background-color: #1BA5DE; bottom: 100%; top: -1000px; z-index: -1;}
+.play-btn:after{content: ''; position: absolute; width: 15px; left: 49.5%; transform: translateX(-50%); background-color: #1BA5DE; bottom: -121%;
+    top: 98%; z-index: -1;}
+.video-content{float: left; width: 79.93697478991596%; margin-left: 5.357142857142857%; position: relative;}
+.video-wrap-thumb{float: right; width: 83.15789473684211%; border-radius: 41px; position: relative; opacity: 0.33}
+.video-wrap-thumb img{border-radius: 41px;}
+.video-wrap .section-title{position: absolute; top: 50%; transform: translateY(-50%); left: 0; z-index: 99;}
+.video-wrap .section-title h3{font-family: 'Lato',sans-serif; font-weight: 900;}
+.video-wrap .section-title span{float: left; width: 100%; font-size: 28px; line-height: 34px; font-family: 'Lato',sans-serif; font-weight: 700; color: #A8A8A8;}
+/* === the-why === */
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+

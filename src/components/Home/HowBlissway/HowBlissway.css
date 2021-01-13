@@ -1,0 +1,43 @@
+/* Video Modal */
+.video-wrap{z-index: 1}
+.how-blissway .play-btn:before { top: -430%; background-color: #1BA5DE; bottom: 99%;}
+.play-btn:before{background-color: #1BA5DE; bottom: 99%;}
+.how-blissway{padding-top: 448px;}
+.video-modal{float: left; width: 100%; position: fixed; top: 50%; left: 0; transform: translateY(-50%); z-index: 99; opacity: 0; visibility: hidden; transition: .3s ease-in-out; z-index: 99999999;}
+.play-btn:after {background-color: #1BA5DE; top: 99%;}
+.videoShow{overflow-y: hidden;}
+@media only screen and (min-width: 1025px){
+    .videoShow{margin-right: 17px;}
+}
+.video-modal-one-show, .video-modal-two-show{opacity: 1; visibility: visible;}
+.video-modal .common-wrap{max-width: 968px; margin: 0 auto;}
+.video-wrapper{float: left; width: 100%; position: relative;}
+.video-wrapper figure{width: 64px; cursor: pointer; position: absolute; top: -15px; right: -15px;left: auto; bottom: auto; z-index: 9;}
+.video-wrapper video{float: left; width: 100%; border-radius: 50px;}
+/* Video Modal */
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.video-content{width: 100%; margin-left: 0;}
+.video-wrap-thumb{width: 100%;}
+.play-btn-wrap{width: 100%; justify-content: center;}
+.play-btn{width: 78px; bottom: -32px; z-index: 9;}
+.play-btn:after{display: none}
+.news-letter-form-wrap{padding: 0;}
+.news-letter-form{padding: 50px 21px 12px; min-height: 217px;}
+.news-letter-form-wrap:after{display: none;}
+.news-letter-form-wrap:before { content: ''; position: absolute; width: 9px; height: 154%; background-image: linear-gradient(to top, #21DEDE, #1BA5DE); left: 50%; transform: translateX(-50%); top: -145%; z-index: -1; }
+.video-wrap {z-index: 111; padding-top: 234px;}
+
+
+.the-why.video-wrap{position: relative;}
+.the-why.video-wrap:before{content: ''; position: absolute; top: 100px; left: 50%; transform: translateX(-50%); right: auto; width: 9px; height: 81px; background-color: #272727; border-radius: 12px; margin-left: -28px;}
+.the-why.video-wrap:after{content: ''; position: absolute; top: 128px; left: 50%; transform: translateX(-50%); right: auto; width: 9px; height: 50px; background-color: #575757; border-radius: 12px; margin-left: 28px;}
+}
